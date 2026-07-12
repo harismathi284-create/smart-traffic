@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Traffic Management System</h1>
+    <p>Urban Congestion Solution</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Dashboard</a>
+    <a href="#">Traffic</a>
+    <a href="#">Reports</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Traffic Dashboard</h2>
+
+<p>Vehicle Count : <b>120</b></p>
+
+<p>Signal :
+<span id="signal">RED</span>
+</p>
+
+<p>Status :
+<span id="status">Heavy Traffic</span>
+</p>
+
+<button onclick="changeSignal()">Change Signal</button>
+
+</div>
+
+<div class="card">
+<h2>Traffic Report</h2>
+
+<table>
+<tr>
+<th>Road</th>
+<th>Vehicles</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>North</td>
+<td>120</td>
+<td>Heavy</td>
+</tr>
+
+<tr>
+<td>South</td>
+<td>80</td>
+<td>Medium</td>
+</tr>
+
+<tr>
+<td>East</td>
+<td>45</td>
+<td>Low</td>
+</tr>
+
+<tr>
+<td>West</td>
+<td>150</td>
+<td>Heavy</td>
+</tr>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
